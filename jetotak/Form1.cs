@@ -26,7 +26,7 @@ namespace jetotak
             label2.Text = (a + b).ToString();
             label3.Text = (a + b).ToString();
             if (b != 0) label4.Text = (a / b).ToString();
-            else label4.Text = "nelze";
+            else label4.Text = " nelze ";
         }
 
         private void label3_Click(object sender, EventArgs e)
